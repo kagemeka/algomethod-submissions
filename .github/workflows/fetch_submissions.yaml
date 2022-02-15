@@ -23,7 +23,7 @@ jobs:
       - name: Install apts
         run: |
           sudo apt update
-          sudo apt install -y curl wget fonts-not-cjk
+          sudo apt install -y curl wget fonts-noto-cjk
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo apt install -y ./google-chrome-stable_current_amd64.deb
           rm google-chrome-stable_current_amd64.deb
