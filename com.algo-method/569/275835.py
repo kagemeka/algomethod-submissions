@@ -1,4 +1,4 @@
-import typing 
+import typing
 def main() -> None:
     n = int(input())
     a = list(range(1, n + 1))

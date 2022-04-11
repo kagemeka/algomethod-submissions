@@ -1,4 +1,4 @@
-import typing 
+import typing
 def sum_of_pow_2(n: int) -> int:
     return n * (n + 1) // 2 * (2 * n + 1) // 3
 def f(n: int) -> int:
