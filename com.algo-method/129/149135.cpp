@@ -4,5 +4,5 @@ int main() {
   std::cin.tie(nullptr);
   int n;
   std::cin >> n;
-  std::cout << (n >> 1 & 1 ? "Yes" : "No") << '\n';	
+  std::cout << (n >> 1 & 1 ? "Yes" : "No") << '\n';
 }

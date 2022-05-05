@@ -1,4 +1,4 @@
-import typing 
+import typing
 class UnionFind():
     def __init__(self, n: int) -> None:
         self.__data = [-1] * n
@@ -9,12 +9,12 @@ class UnionFind():
         return self.__data[u]
     def unite(self, u: int, v: int) -> None:
         u, v = self.find(u), self.find(v)
-        if u == v: return 
+        if u == v: return
         d = self.__data
         if d[u] > d[v]:
             u, v = v, u
         d[u] += d[v]
-        d[v] = u 
+        d[v] = u
 def main() -> None:
     n, m = map(int, input().split())
     min_value = list(range(n))
